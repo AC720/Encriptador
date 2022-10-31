@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador AC-ONE</title>
+</head>
+<body>
+    <header>
+        <h1 class="encabezado">ORACLE + alura</h1>
+    </header> 
+    <main>
+        <section>
+            <h2 class="titulo-principal">Encriptador</h2>
+            <textarea  class="cuadro-texto" cols="70" rows="15" placeholder="Ingrese el texto que desea Encriptar/Desencriptar."></textarea>
+            <div>
+                <p class="advertencia"> &#128683; Solo letras minúsculas y sin acentos. </p>
+            </div>
+            <div>
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button> 
+            </div>
+            <div>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button> 
+            </div>
+        </section>
+        <section>      
+            <img class="flecha" src="Imagenes/flecha.jpg">      
+            <textarea class="cuadro-mensaje" cols="70" rows="15"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">
+                Copiar
+                </button>
+            </div>   
+        </section> 
+    </main> 
+    <footer class="copyright">
+        <p>&copy Copyright Encriptador AC- ONE / 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

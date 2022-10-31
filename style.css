@@ -1,0 +1,118 @@
+/* Color de Fondo Encriptador*/
+
+body {
+  background-image: url(Imagenes/fondo\ gris.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.encabezado {
+  font-family: Lucida Sans; color: rgb(250, 247, 247);
+  font-size: 50px;
+  text-shadow: 0 0 10px #8e0202;
+  padding-left: 15px;
+}
+
+.titulo-principal{
+  display: block;
+  margin-top: 100px;
+  margin-left: 670px;
+  font-family:Verdana; color:#8e0202; 
+  -webkit-text-stroke: 2px #8e0202;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-decoration-line: underline;  
+}
+
+.cuadro-texto{
+  text-transform:lowercase;
+  position: relative;
+  left: 200px;
+  top: 70px;
+  border-style:solid;
+  border-width: 8px;
+  resize: none;
+}
+
+::placeholder{
+  font-size: 1.4em;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.advertencia{
+display:inline-block;
+margin-top: 70px;
+margin-left: 210px;
+font-family:Lucida Sans;
+font-size: 1em;
+color:#df4e4e
+}
+
+.encriptar{
+  position:relative;
+  margin-left: 270px;
+  background-color: #8e0202;
+  font-family:Verdana;
+  font-size: 25px;
+  color: #f8f6f6;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.desencriptar{
+  position:absolute;
+  margin-top: -40px;
+  margin-left: 500px;
+  background-color: #b46b6b;
+  font-family:Verdana;
+  font-size: 25px;
+  color: #f8f6f6;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.flecha{
+  position: absolute;
+  margin-top: -250px;
+  margin-left: 830px;
+  width: 100px;
+  height: 90px;
+}
+
+.cuadro-mensaje{
+  position: absolute;
+  margin-left: 1000px;
+  top: 366px; 
+  border-style:solid; 
+  border-width: 8px;
+  resize: none;
+  background-image: url(Imagenes/Muñeco.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px;
+}
+
+.copiar{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 1180px;
+  background-color: #8e0202;
+  font-family:Verdana;
+  font-size: 25px;
+  color: #f8f6f6;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+}
+
+.copyright{
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 750px;
+  color: rgb(138, 137, 137);
+}
